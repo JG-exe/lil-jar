@@ -1,6 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
 /* web first */
 
+body{
+    margin: 0;
+    padding: 0;
 
+    font-family: "Sansita", sans-serif;
+
+    background-color: rgb(255, 192, 203);
+    color: rgb(153, 0, 84);
+}
+
+
+
+.ctr{
+    background-color: green;
+    width: 95vw;
+    margin: auto;
+    min-height: 90vh;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.head{
+    height: 5vh;
+    text-align: center;
+    grid-column: 1/13;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.calendars{
+    background-color: yellow;
+    grid-column: span 2;
+}
+
+.center{
+    background-color: goldenrod;
+    height: 80%;
+    grid-column: 3/11;
+    margin: auto 0;
+}
 
 @media only screen and (max-width: 768px){
 
