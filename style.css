@@ -15,21 +15,21 @@ body{
 
 
 .ctr{
-    background-color: green;
     width: 95vw;
     margin: auto;
     min-height: 90vh;
-
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px;
 }
 
 .head{
-    height: 5vh;
-    text-align: center;
+    display: flex;
     grid-column: 1/13;
+    grid-row: 1/2;
     width: 95%;
-    margin: 0 auto;
+    justify-content: center;
 }
 
 .calendars{
@@ -39,9 +39,10 @@ body{
 
 .center{
     background-color: goldenrod;
-    height: 80%;
     grid-column: 3/11;
+    grid-row: 2/6;
     margin: auto 0;
+    height: 100%;
 }
 
 @media only screen and (max-width: 768px){
