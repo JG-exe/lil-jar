@@ -45,6 +45,10 @@ body{
     height: 100%;
 }
 
+.msg{
+    margin: 1rem;
+}
+
 @media only screen and (max-width: 768px){
 
 }

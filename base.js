@@ -17,7 +17,7 @@ function getCount(){
     console.log(start, d);
 
     const timeDiff = d - start;
-    count = 1 + timeDiff/(1000 * 3600 *24)
+    count = 1 + Math.floor(timeDiff/(1000 * 3600 *24));
 
-    document.getElementById("nr").innerHTML = Math.floor(count);
+    document.getElementById("nr").innerHTML = count;
 }
