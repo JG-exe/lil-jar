@@ -5,6 +5,7 @@
 let count = 0;
 const startDate = '2025-07-07';
 const start = new Date(startDate);
+let currentlyWatching = 0;
 
 init();
 
@@ -18,3 +19,4 @@ function getCount(){
     count = 1 + Math.floor(timeDiff/(1000 * 3600 *24));
     document.getElementById("nr").innerHTML = count;
 }
+// currentlyWatching > 0 => allow to go to next item
