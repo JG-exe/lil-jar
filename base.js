@@ -1,7 +1,7 @@
 import Reasons from "./data/Reasons.js";
 
 let count = 0;
-const startDate = '2025-08-10';
+const startDate = '2025-07-03'; //2025-08-10
 const start = new Date(startDate);
 let currentlyWatching = 0;
 let slicedArr = []
@@ -15,15 +15,18 @@ init();
 
 function init(){
     getData();
+    addEventListeners();
+    displayItem(currentlyWatching);
 }
 
 function getData(){
     let d = new Date();
     const timeDiff = d - start;
-    count = 1 + Math.floor(timeDiff/(1000 * 3600 *24));
+    currentlyWatching = Math.floor(timeDiff/(1000 * 3600 *24));
+    count = currentlyWatching + 1;
     document.getElementById("nr").innerHTML = count;
     
-    SlicedArr = Reasons.slice(0, count);
+    slicedArr = Reasons.slice(0, count);
 }
 
 function renderButtons(){
@@ -34,8 +37,28 @@ function renderButtons(){
 
 function addEventListeners(){
     // add eventListeners to buttons
+    document.getElementById('prev').addEventListener('click', function(){
+        if(currentlyWatching > 0){
+            currentlyWatching -= 1;
+            displayItem(currentlyWatching);
+        }
+    });
+    document.getElementById('next').addEventListener('click', function(){
+        if(currentlyWatching < count - 1){
+            currentlyWatching += 1;
+            displayItem(currentlyWatching);
+        }
+    })
+    document.getElementById('rng').addEventListener('click', function(){
+        
+    })
 }
 
 function rngItem(){
     // pick random item to display
+}
+
+function displayItem(i){
+    console.log(currentlyWatching);
+    document.getElementById('reason').innerHTML = slicedArr[i];
 }
