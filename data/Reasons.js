@@ -4,5 +4,18 @@ export const Reasons = [
     "I really love your laugh",
     "You give my world more colour",
     "You are so amazingly cute about everything.",
-    "You choose me and made you mine and I fucking love it"
+    "You choose me and made you mine and I fucking love it",
+    "You make my day brighter",
+    "Your smile lights up the room",
+    "You are the best thing to ever happen to me.",
+    "I love your hair",
+    "You always make me feel safe and loved.",
+    "You're constantly on my mind",
+    "In a world of bothering, you're the calm I always look forward to.",
+    "spending time with you is my favourite thing to do <3",
+    "I don't have to think about the way I am with you.",
+    "Loving you feels as natural as breathing and as necessary as air.",
+    "Hey you, sexy girl<33",
+    "I am madly in love with you",
+    
 ]
