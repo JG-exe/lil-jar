@@ -24,7 +24,6 @@ function getData(){
     const timeDiff = d - start;
     currentlyWatching = Math.floor(timeDiff/(1000 * 3600 *24));
     count = currentlyWatching + 1;
-    document.getElementById("nr").innerHTML = count;
     
     slicedArr = Reasons.slice(0, count);
 }
@@ -50,7 +49,9 @@ function addEventListeners(){
         }
     })
     document.getElementById('rng').addEventListener('click', function(){
-        
+        let pick = Math.floor(Math.random() * count);
+        currentlyWatching = pick;
+        displayItem(currentlyWatching);
     })
 }
 
@@ -61,4 +62,5 @@ function rngItem(){
 function displayItem(i){
     console.log(currentlyWatching);
     document.getElementById('reason').innerHTML = slicedArr[i];
+    document.getElementById("nr").innerHTML = currentlyWatching + 1;
 }
