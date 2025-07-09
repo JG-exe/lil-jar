@@ -31,6 +31,11 @@ function renderButtons(){
     } else {
         document.getElementById('prev').classList.remove('dispNone');
     }
+        if (currentlyWatching == count -1){
+        document.getElementById('next').classList.add('dispNone');
+    } else {
+        document.getElementById('next').classList.remove('dispNone');
+    }
     // if currentlyWatching == 0 => no next button
     // uif currently watching item 0 => no previous button
     // add rrandom button to pick between day 0 and current day

@@ -53,15 +53,14 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    div{
-        cursor: pointer;
-    }
 }
 
 .option{
     width: 6rem;
     text-align: center;
+    div{
+        cursor: pointer;
+    }
 }
 
 .dispNone{
