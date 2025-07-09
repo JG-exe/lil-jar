@@ -62,5 +62,7 @@ function rngItem(){
 function displayItem(i){
     console.log(currentlyWatching);
     document.getElementById('reason').innerHTML = slicedArr[i];
-    document.getElementById("nr").innerHTML = currentlyWatching + 1;
+    document.getElementById("nr").innerHTML = currentlyWatching + 1 + ` out of ${count} currently available reasons`;
+
+    document.getElementById('total').innerHTML = Reasons.length + 1;
 }

@@ -50,7 +50,7 @@ const Reasons = [
     "I just fucking love you, Mia",
     "Your presence warms my heart",
     "You always find the cutest gifts for everyone.",
-    "You ar always such a big help to me, even when you don't realise it.",
+    "You ar always `su`ch a big help to me, even when you don't realise it.",
     "Our future together is the most exciting thing ever.",
     "Your love is one of a kind. one I never want to lose<3",
     "I never get tired of being with you",
@@ -81,6 +81,16 @@ const Reasons = [
     "I love your laugh. You really have an attractive laugh, did you know that?",
     "I believe in you, cutie.",
     "You're the cutest girl ever. There's no denying it.",
+    "I feel so supported by you, always.",
+    "You arer so perfect for me.",
+    "When I'm with you, I need nothing else.",
+    "I need you more than air or water or food. Or caffeine <33",
+    "You are the prettiest girl ever in and out.",
+    "I love how I can just love you without more. Just love, no other reasons needed because you are reason enough.",
+    "You always know how to calm me down when I'm stressed or feel guilty.",
+    "I love your butt<33",
+    "You are always pretty.",
+    ""
 ];
 
 export default Reasons;
