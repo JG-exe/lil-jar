@@ -59,6 +59,15 @@ body{
     }
 }
 
+.option{
+    width: 6rem;
+    text-align: center;
+}
+
+.dispNone{
+    display: none;
+}
+
 @media only screen and (max-width: 768px){
 
 }
