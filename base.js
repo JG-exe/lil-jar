@@ -21,7 +21,6 @@ function getData(){
     const timeDiff = d - start;
     currentlyWatching = Math.floor(timeDiff/(1000 * 3600 *24));
     count = currentlyWatching + 1;
-    
     slicedArr = Reasons.slice(0, count);
 }
 
@@ -36,13 +35,9 @@ function renderButtons(){
     } else {
         document.getElementById('next').classList.remove('dispNone');
     }
-    // if currentlyWatching == 0 => no next button
-    // uif currently watching item 0 => no previous button
-    // add rrandom button to pick between day 0 and current day
 }
 
 function addEventListeners(){
-    // add eventListeners to buttons
     document.getElementById('prev').addEventListener('click', function(){
         if(currentlyWatching > 0){
             currentlyWatching -= 1;
@@ -62,15 +57,9 @@ function addEventListeners(){
     })
 }
 
-function rngItem(){
-    // pick random item to display
-}
-
 function displayItem(i){
-    console.log(currentlyWatching);
     renderButtons();
     document.getElementById('reason').innerHTML = slicedArr[i];
     document.getElementById("nr").innerHTML = currentlyWatching + 1 + ` out of ${count} currently available reasons`;
-
     document.getElementById('total').innerHTML = Reasons.length;
 }
