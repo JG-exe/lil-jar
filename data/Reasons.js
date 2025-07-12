@@ -138,7 +138,27 @@ const Reasons = [
     "You make me feel whole.",
     "Your love feels magical",
     "I want to spend forever with you in my arms.",
-    "You turned my ordinary life into a beautiful fairy tale with the cutest little princess as the main character."
+    "You turned my ordinary life into a beautiful fairy tale with the cutest little princess as the main character.",
+    "Your love is the best gift ever.",
+    "You give me energy to get through the day;",
+    "Life is better with you.",
+    "All of me loves all of you.",
+    "I love how safe you feel with me.",
+    "I'm a big simp for you.",
+    "I love making memories with you.",
+    "I love doing life with you.",
+    "You are reason enough for me to be happy.",
+    "All I want is to be next to you, baby.",
+    "I only have eyes for you.",
+    "I will choose you forever and ever and ever and ever and ever <333",
+    "You're breathtaking.",
+    "Thank you for being who you are.",
+    "You are forever my greatest adventure.",
+    "I love you for who you are.",
+    "You're lovely and cute <3",
+    "You make my heart happy. <3",
+    "I love your smile.",
+    "You're adorable, cutie."
 ];
 
 export default Reasons;
