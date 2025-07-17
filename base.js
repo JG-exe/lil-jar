@@ -1,12 +1,11 @@
 import Reasons from "./data/Reasons.js";
 
 let count = 0;
-const startDate = '2025-07-01'; // 2025-08-10 doublecheck date before reveal
+const startDate = '2025-08-10'; // doublecheck date before reveal
 const start = new Date(startDate);
 const rl = Reasons.length;
 let currentlyWatching = 0;
 let slicedArr = [];
-let diff;
 
 // change id="time" to fit message if it is one from the past?
 
@@ -65,6 +64,12 @@ function displayItem(i){
     document.getElementById('reason').innerHTML = slicedArr[i];
     document.getElementById("nr").innerHTML = currentlyWatching + 1 + ` out of ${count} currently available reasons`;
     document.getElementById('total').innerHTML = rl;
+    if(!slicedArr[i]){
+        document.getElementById('reason').innerHTML = `you're too early 😘<br> I love you, cutie`;
+        document.getElementById("nr").innerHTML = currentlyWatching + 1 + ` out of ${count} currently available reasons`;
+        document.getElementById('total').innerHTML = rl;
+        
+    }
 }
 
 function checkNew(){
