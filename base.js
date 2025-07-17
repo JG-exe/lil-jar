@@ -27,7 +27,7 @@ function getData(){
 }
 
 function renderButtons(){
-    if (currentlyWatching == 0){
+    if (currentlyWatching < 0){
         document.getElementById('prev').classList.add('dispNone');
     } else {
         document.getElementById('prev').classList.remove('dispNone');
@@ -66,7 +66,7 @@ function displayItem(i){
     document.getElementById('total').innerHTML = rl;
     if(!slicedArr[i]){
         document.getElementById('reason').innerHTML = `you're too early 😘<br> I love you, cutie`;
-        document.getElementById("nr").innerHTML = currentlyWatching + 1 + ` out of ${count} currently available reasons`;
+        document.getElementById("nr").innerHTML = `You can see the first one in ${Math.abs(count)} days`;
         document.getElementById('total').innerHTML = rl;
         
     }
