@@ -160,7 +160,8 @@ const Reasons = [
     "I love your smile.",
     "You're adorable, cutie.",
     "You are my biggest reason to keep going <3",
-    "I want you and only you, babe. You're mine."
+    "I want you and only you, babe. You're mine.",
+    "You love me the right way.<3"
 ];
 
 export default Reasons;
