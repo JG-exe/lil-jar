@@ -1,5 +1,5 @@
 const Reasons = [
-    "Happy birthday, babe. I made a little love jar for you. You get one reason every day, but you can't look at the next day yet🩷🩷 you'll have to come back tomorrow 😘",
+    "Happy birthday, babe. I made a little love jar for you. You get one extra thingy every day, but you can't look at the next ones 🩷🩷 you'll have to come back tomorrow 😘",
     "You are the most wonderful girl I've ever met.",
     "You are amazing and wonderful and smart. And funny, but like really hilarious and sooo cute.",
     "I really love your laugh",
