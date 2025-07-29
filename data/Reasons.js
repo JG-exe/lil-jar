@@ -167,7 +167,11 @@ const Reasons = [
     "You're like the part of me I never knew I missed until I found you <3",
     "I know this one is pretty deep down the list, but I wrote all of these while smiling, babe<3",
     "I'll always love you more than you know🩷🩷",
-    "You deserve all the pretty things in this world."
+    "You deserve all the pretty things in this world.",
+    "With you, I can conquer everything.",
+    "You are never too much, sweetheart.",
+    "I am so lucky to have someone as special as you in my life 🩷🩷",
+    "You are not hard to love. It even feels as natural as breathing."
 ];
 
 export default Reasons;
