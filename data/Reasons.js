@@ -171,7 +171,8 @@ const Reasons = [
     "With you, I can conquer everything.",
     "You are never too much, sweetheart.",
     "I am so lucky to have someone as special as you in my life 🩷🩷",
-    "You are not hard to love. It even feels as natural as breathing."
+    "You are not hard to love. It even feels as natural as breathing.",
+"You are so unbelievably cute 🩷🩷"
 ];
 
 export default Reasons;
