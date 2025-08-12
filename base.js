@@ -25,7 +25,7 @@ function getData(){
 }
 
 function renderButtons(){
-    if (currentlyWatching < 0){
+    if (currentlyWatching <= 0){
         document.getElementById('prev').classList.add('dispNone');
     } else {
         document.getElementById('prev').classList.remove('dispNone');
