@@ -1,13 +1,11 @@
 import Reasons from "./data/Reasons.js";
 
 let count = 0;
-const startDate = '2025-08-10'; // doublecheck date before reveal
+const startDate = '2025-08-10'; 
 const start = new Date(startDate);
 const rl = Reasons.length;
 let currentlyWatching = 0;
 let slicedArr = [];
-
-// change id="time" to fit message if it is one from the past?
 
 init();
 
