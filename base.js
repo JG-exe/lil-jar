@@ -20,7 +20,6 @@ function getData(){
     let d = new Date();
     const timeDiff = d - start;
     currentlyWatching = Math.floor(timeDiff/(1000 * 3600 *24));
-    console.log(timeDiff/(1000 * 3600 *24))
     count = currentlyWatching + 1;
     slicedArr = Reasons.slice(0, count);
 }
