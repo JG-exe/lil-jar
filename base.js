@@ -1,7 +1,7 @@
 import Reasons from "./data/Reasons.js";
 
 let count = 0;
-const startDate = '2025-08-10'; 
+const startDate = new Date(2025, 7, 10); 
 const start = new Date(startDate);
 const rl = Reasons.length;
 let currentlyWatching = 0;
@@ -20,6 +20,7 @@ function getData(){
     let d = new Date();
     const timeDiff = d - start;
     currentlyWatching = Math.floor(timeDiff/(1000 * 3600 *24));
+    console.log(timeDiff/(1000 * 3600 *24))
     count = currentlyWatching + 1;
     slicedArr = Reasons.slice(0, count);
 }
@@ -75,7 +76,7 @@ function checkNew(){
     if ( !lastCount){
         localStorage.setItem('lastCount', rl);
     } else {
-        const last = lastCount;
+        const last = Number(lastCount);
         if(last < rl){
             document.getElementById('new').innerHTML = rl - last;
             localStorage.setItem('lastCount', rl);
