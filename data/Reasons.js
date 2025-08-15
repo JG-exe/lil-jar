@@ -175,7 +175,9 @@ const Reasons = [
     "You are so unbelievably cute 🩷🩷",
     "Little Joachim would never believe that he would have such a beautiful and gorgeous girlfriend like you 🩷",
     "I still can't believe you picked me 🩷🩷",
-    "How does it feel to be the prettiest girl alive?"
+    "How does it feel to be the prettiest girl alive?",
+    "I love you more every day <33",
+    "You are my first thought every morning <33"
 ];
 
 export default Reasons;
