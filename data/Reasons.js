@@ -172,7 +172,10 @@ const Reasons = [
     "You are never too much, sweetheart.",
     "I am so lucky to have someone as special as you in my life 🩷🩷",
     "You are not hard to love. It even feels as natural as breathing.",
-"You are so unbelievably cute 🩷🩷"
+    "You are so unbelievably cute 🩷🩷",
+    "Little Joachim would never believe that he would have such a beautiful and gorgeous girlfriend like you 🩷",
+    "I still can't believe you picked me 🩷🩷",
+    "How does it feel to be the prettiest girl alive?"
 ];
 
 export default Reasons;
