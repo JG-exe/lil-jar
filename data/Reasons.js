@@ -178,7 +178,8 @@ const Reasons = [
     "I still can't believe you picked me 🩷🩷",
     "How does it feel to be the prettiest girl alive?",
     "I love you more every day <33",
-    "You are my first thought every morning <33"
+    "You are my first thought every morning <33",
+    "I'll always be there for you🌷🩷"
 ];
 
 export default Reasons;
