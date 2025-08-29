@@ -1,7 +1,7 @@
 import Reasons from "./data/Reasons.js";
 
 let count = 0;
-const startDate = new Date(2025, 7, 10); 
+const startDate = new Date(2025, 7, 9); 
 const start = new Date(startDate);
 const rl = Reasons.length;
 let currentlyWatching = 0;
