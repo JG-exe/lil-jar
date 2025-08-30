@@ -179,7 +179,8 @@ const Reasons = [
     "How does it feel to be the prettiest girl alive?",
     "I love you more every day <33",
     "You are my first thought every morning <33",
-    "I'll always be there for you🌷🩷"
+    "I'll always be there for you🌷🩷",
+    "Even if I have to wait forever, I'll wait for you🩷"
 ];
 
 export default Reasons;
