@@ -296,3 +296,8 @@ margin: auto;
     grid-column: 2/12;
 }
 }
+
+.img{
+    height: 200px;
+    width: auto;
+}
