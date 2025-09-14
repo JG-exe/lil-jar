@@ -107,12 +107,19 @@ function addEventListeners(){
 function displayItem(i){
     renderButtons();
     document.getElementById('reason').innerHTML = slicedArr[i];
-    document.getElementById("nr").innerHTML = currentlyWatching + 1 + ` out of ${count} currently available reasons`;
+    document.getElementById("nr").innerHTML = i + 1 + ` out of ${count} currently available reasons`;
     document.getElementById('total').innerHTML = rl;
 
-    console.log(new Date(startDate.getTime() + ((currentlyWatching) *86400000))); // calc days since to format that computer understands 86400000
+    console.log(new Date(startDate.getTime() + ((currentlyWatching) * 86400000))); // calc days since to format that computer understands 86400000
     console.log(currentlyWatching);
-    // if item currentlyWatching is past > 19 => - 1 
+
+    let displayDate = new Date(startDate.getTime() + ((currentlyWatching) * 86400000));
+    if(i > 19){
+        displayDate = new Date(displayDate - 86400000);
+        console.log('active')
+    }
+    document.getElementById('release').innerHTML = `first shown: ${displayDate.toLocaleDateString()}`;
+    // if item currentlyWatching is > 19 => - 1 
 
     if(!slicedArr[i]){
         document.getElementById('reason').innerHTML = `you're too early 😘<br> I love you, cutie`;
