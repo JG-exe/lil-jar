@@ -114,7 +114,7 @@ function displayItem(i){
     if(i > 19){
         displayDate = new Date(displayDate - 86400000);
     }
-    document.getElementById('release').innerHTML = `first shown: ${displayDate.toLocaleDateString()}`;
+    document.getElementById('release').innerHTML = `the reason of ${displayDate.toLocaleDateString()}`;
 
     if(!slicedArr[i]){
         document.getElementById('reason').innerHTML = `you're too early 😘<br> I love you, cutie`;
