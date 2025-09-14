@@ -36,9 +36,41 @@ body{
     text-align: center;
 }
 
+.pin{
+    grid-row: 2/3;
+    grid-column: 2/12;
+    background-color: rgba(128, 0, 128, 0.226);
+    border-radius: 10px;
+}
+
+.innerPin{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.pinnedItem{
+    background-color: rgba(255, 192, 203, 0.897);
+    width: 25px;
+    height: 25px;
+    align-content: center;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    scale: 1;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.pinnedItem:hover{
+    scale: 1.2;
+}
+
 .center{
     grid-column: 4/10;
-    grid-row: 2/6;
+    grid-row: 3/6;
     margin: auto 0;
     height: 100%;
 }
@@ -48,6 +80,18 @@ body{
     grid-template-rows: repeat(6, 1fr);
     gap: 1rem;
     height: 100%;
+}
+
+#pin{
+    margin-top: 20px;
+    cursor: pointer;
+    img{
+        height: 30px;
+    }
+}
+
+.rot{
+    rotate: -45deg;
 }
 
 .rCtr{
@@ -194,6 +238,7 @@ animation-delay: 4.4s;
 }
 
 .under{
+    grid-row: 6/7;
     grid-column: 4/10;
     display: flex;
     flex-direction: row;
