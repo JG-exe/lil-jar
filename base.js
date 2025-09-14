@@ -22,7 +22,7 @@ function init(){
     checkNew();
     addEventListeners();
     displayItem(currentlyWatching);
-    // pinAll()
+    pinAll()
 }
 
 function getData(){
@@ -45,13 +45,13 @@ function renderButtons(){
         document.getElementById('next').classList.remove('dispNone');
     }
 
-    // if(pins.includes(currentlyWatching)){
-    //     document.getElementById('pin').classList.add('rot');
-    // } else{
-    //     document.getElementById('pin').classList.remove('rot');
-    // }
+    if(pins.includes(currentlyWatching)){
+        document.getElementById('pin').classList.add('rot');
+    } else{
+        document.getElementById('pin').classList.remove('rot');
+    }
 
-    // pinAll();
+    pinAll();
 }
 
 function pinAll(){
@@ -70,22 +70,22 @@ function makePin(i){
 }
 
 function addEventListeners(){
-    // document.getElementById('pin').addEventListener('click', function(){
-    //     if(pins.includes(currentlyWatching)){
-    //         pins = pins.filter(i => i !==currentlyWatching);
-    //         localStorage.setItem('pins', pins);
-    //         document.getElementById('pin').classList.remove('rot');
-    //         pinAll();
+    document.getElementById('pin').addEventListener('click', function(){
+        if(pins.includes(currentlyWatching)){
+            pins = pins.filter(i => i !==currentlyWatching);
+            localStorage.setItem('pins', pins);
+            document.getElementById('pin').classList.remove('rot');
+            pinAll();
 
-    //     } else{
-    //         pins.push(currentlyWatching);
-    //         localStorage.setItem('pins', pins);
-    //         document.getElementById('pin').classList.add('rot');
-    //         pinAll();
+        } else{
+            pins.push(currentlyWatching);
+            localStorage.setItem('pins', pins);
+            document.getElementById('pin').classList.add('rot');
+            pinAll();
 
-    //     }
-    //     console.log(pins);
-    // })
+        }
+        console.log(pins);
+    })
 
     document.getElementById('prev').addEventListener('click', function(){
         if(currentlyWatching > 0){
