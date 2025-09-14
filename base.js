@@ -8,6 +8,8 @@ const rl = Reasons.length;
 let currentlyWatching = 0;
 let slicedArr = [];
 let pins =[];
+const week = ['Sunday (dimanche)', 'Monday (lundi)', 'Tuesday (mardi)', 'Wednesday (mercredi)', 'Thursday (jeudi)', 'Friday (vendredi)', 'Saturday (samedi)'];
+
 
 init();
 
@@ -104,6 +106,7 @@ function addEventListeners(){
     })
 }
 
+
 function displayItem(i){
     renderButtons();
     document.getElementById('reason').innerHTML = slicedArr[i];
@@ -114,7 +117,9 @@ function displayItem(i){
     if(i > 19){
         displayDate = new Date(displayDate - 86400000);
     }
-    document.getElementById('release').innerHTML = `the reason of ${displayDate.toLocaleDateString()}`;
+
+    console.log(week[displayDate.getDay()])
+    document.getElementById('release').innerHTML = `the reason of ${week[displayDate.getDay()]}, ${displayDate.toLocaleDateString()}`;
 
     if(!slicedArr[i]){
         document.getElementById('reason').innerHTML = `you're too early 😘<br> I love you, cutie`;
