@@ -173,6 +173,7 @@ const Reasons = [
     "You are never too much, sweetheart.",
     "I am so lucky to have someone as special as you in my life 🩷🩷",
     "You are not hard to love. It even feels as natural as breathing.",
+    "I smile randomly now because of you 🩷🌷",
     "You are so unbelievably cute 🩷🩷",
     "Little Joachim would never believe that he would have such a beautiful and gorgeous girlfriend like you 🩷",
     "I still can't believe you picked me 🩷🩷",
@@ -182,7 +183,8 @@ const Reasons = [
     "I'll always be there for you🌷🩷",
     "Even if I have to wait forever, I'll wait for you🩷",
     "I am addicted to you <3",
-    "Everything has been better since you entered my life 🩷"
+    "Everything has been better since you entered my life 🩷",
+    "You make me happy 🌷"
 ];
 
 export default Reasons;
