@@ -51,7 +51,7 @@ const Reasons = [
     "I just fucking love you, Mia",
     "Your presence warms my heart",
     "You always find the cutest gifts for everyone.",
-    "You ar always `su`ch a big help to me, even when you don't realise it.",
+    "You are always such a big help to me, even when you don't realise it.",
     "Our future together is the most exciting thing ever.",
     "Your love is one of a kind. one I never want to lose<3",
     "I never get tired of being with you",
@@ -181,7 +181,9 @@ const Reasons = [
     "You are my first thought every morning <33",
     "I'll always be there for you🌷🩷",
     "Even if I have to wait forever, I'll wait for you🩷",
-    "I am addicted to you <3"
+    "I am addicted to you <3",
+    "You are my sunshine",
+    "You are the most gorgeous girl ever 🩷🩷"
 ];
 
 export default Reasons;
