@@ -184,7 +184,8 @@ const Reasons = [
     "Even if I have to wait forever, I'll wait for you🩷",
     "I am addicted to you <3",
     "Everything has been better since you entered my life 🩷",
-    "You make me happy 🌷"
+    "You make me happy 🌷",
+    "You are the most fortunate thing to ever happen to me."
 ];
 
 export default Reasons;
