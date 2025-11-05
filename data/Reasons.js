@@ -186,7 +186,7 @@ const Reasons = [
     "Everything has been better since you entered my life 🩷",
     "You make me happy 🌷",
     "You are the most fortunate thing to ever happen to me.",
-    "You are the most amazing woman ever<3"
+    "You are the most amazing woman ever<3",
 ];
 
 export default Reasons;
