@@ -183,7 +183,8 @@ const Reasons = [
     "Even if I have to wait forever, I'll wait for you🩷",
     "I am addicted to you <3",
     "You are my sunshine",
-    "You are the most gorgeous girl ever 🩷🩷"
+    "You are the most gorgeous girl ever 🩷🩷",
+    "Every time I hear you, I feel filled with joy <3",
 ];
 
 export default Reasons;
