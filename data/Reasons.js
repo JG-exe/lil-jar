@@ -187,6 +187,8 @@ const Reasons = [
     "You make me happy 🌷",
     "You are the most fortunate thing to ever happen to me.",
     "You are the most amazing woman ever<3",
+    "What a privilege that I have someone like you to miss <33",
+    "My special, lovely girl. I love you so so so much and I want to show you every day.",
 ];
 
 export default Reasons;
