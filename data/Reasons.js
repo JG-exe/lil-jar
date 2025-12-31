@@ -145,6 +145,7 @@ const Reasons = [
     "Life is better with you.",
     "All of me loves all of you.",
     "I love how safe you feel with me.",
+    "For slightly over a year, I got to call you mine. For slightly over a year, you made my life so much warmer and better, lovelier and sweeter, more colourful and a little pink. You're my world and I love you. Happy new year <333",
     "I'm a big simp for you.",
     "I love making memories with you.",
     "I love doing life with you.",
