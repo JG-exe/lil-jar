@@ -193,6 +193,7 @@ const Reasons = [
     "I love your voice so so so much. Please never stop talking <3",
     "I am so blessed to have you. I am so lucky to call you mine <33",
     "My future feels easier to imagine because of you. 🩷"
+    "You make me feel like I am the trophy wife in the best way possible 😭🩷",
 ];
 
 export default Reasons;
