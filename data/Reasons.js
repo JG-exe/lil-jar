@@ -195,6 +195,8 @@ const Reasons = [
   "My future feels easier to imagine because of you. 🩷",
   "You make me feel like I am the trophy wife in the best way possible 😭🩷",
   "You are literally the best thing for my heart ever",
+  "I could be happy just looking at you all the time <3",
+  "You're the most wonderful woman ever. I love you so much",
 ];
 
 export default Reasons;
