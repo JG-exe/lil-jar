@@ -194,6 +194,7 @@ const Reasons = [
   "I am so blessed to have you. I am so lucky to call you mine <33",
   "My future feels easier to imagine because of you. 🩷",
   "You make me feel like I am the trophy wife in the best way possible 😭🩷",
+  "You are literally the best thing for my heart ever",
 ];
 
 export default Reasons;
