@@ -197,6 +197,10 @@ const Reasons = [
   "You are literally the best thing for my heart ever",
   "I could be happy just looking at you all the time <3",
   "You're the most wonderful woman ever. I love you so much",
+  "I love how I make you feel and how you make me feel",
+  "I don't have much of a new reason today, but just MWAH🩷 for your cute forehead",
+  "I love the way you fit perfectly in my arms",
+  "I fucking adore everything you are and do <3",
 ];
 
 export default Reasons;
