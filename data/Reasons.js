@@ -145,6 +145,7 @@ const Reasons = [
     "Life is better with you.",
     "All of me loves all of you.",
     "I love how safe you feel with me.",
+    "For slightly over a year, I got to call you mine. For slightly over a year, you made my life so much warmer and better, lovelier and sweeter, more colourful and a little pink. You're my world and I love you. Happy new year <333",
     "I'm a big simp for you.",
     "I love making memories with you.",
     "I love doing life with you.",
@@ -187,6 +188,12 @@ const Reasons = [
     "You make me happy 🌷",
     "You are the most fortunate thing to ever happen to me.",
     "You are the most amazing woman ever<3",
+    "What a privilege that I have someone like you to miss <33",
+    "My special, lovely girl. I love you so so so much and I want to show you every day.",
+    "I love your voice so so so much. Please never stop talking <3",
+    "I am so blessed to have you. I am so lucky to call you mine <33",
+    "My future feels easier to imagine because of you. 🩷"
+    "You make me feel like I am the trophy wife in the best way possible 😭🩷",
 ];
 
 export default Reasons;

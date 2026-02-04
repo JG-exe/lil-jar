@@ -52,10 +52,6 @@ function checkDate() {
     (midnightNow.getTime() - startMidnight.getTime() + timezoneOffset) /
       msPerDay
   );
-  console.log(
-    (midnightNow.getTime() - startMidnight.getTime() + timezoneOffset) /
-      msPerDay
-  );
   return diff;
 }
 
