@@ -35,7 +35,7 @@ function init() {
 
 function getData() {
   currentlyWatching = Math.floor(checkDate()) + offset;
-  count = currentlyWatching + 1;
+  count = (currentlyWatching + 1) > Reasons.length ? Reasons.length : currentlyWatching;
   slicedArr = Reasons.slice(0, count);
 }
 
