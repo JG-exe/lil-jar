@@ -134,7 +134,7 @@ function displayItem(i) {
   renderButtons();
   document.getElementById("reason").innerHTML = slicedArr[i];
   document.getElementById("nr").innerHTML =
-    i + 1 + ` out of ${count} currently available reasons`;
+    `${String(i + 1).padStart(3, "0")} out of ${count} currently available reasons`;
   document.getElementById("total").innerHTML = rl;
 
   let displayDate = new Date(
@@ -154,7 +154,7 @@ function displayItem(i) {
     ).innerHTML = `you're too early 😘<br> I love you, cutie`;
     document.getElementById(
       "nr"
-    ).innerHTML = `You can see the first one in ${Math.abs(count)} days`;
+    ).innerHTML = `There are ${count} reasons waiting to be rediscovered by clicking random.😘`;
     document.getElementById("total").innerHTML = rl;
   }
   pinAll();
